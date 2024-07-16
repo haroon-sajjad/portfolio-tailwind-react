@@ -1,15 +1,15 @@
 import Button from "./Button";
 import Nav from "./Nav";
-import ShoeCard from "./ShoeCard";
+import SkillCard from "./SkillCard";
 import PopularProductCard from "./PopularProductCard";
 import ServiceCard from "./ServiceCard";
-import ReviewCard from "./ReviewCard";
+import TestimonialCard from "./TestimonialCard";
 
 export {
     Button,
     Nav,
-    ShoeCard,
+    SkillCard,
     PopularProductCard,
     ServiceCard,
-    ReviewCard,
+    TestimonialCard,
 }
