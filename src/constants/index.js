@@ -1,11 +1,4 @@
-import {
-  facebook,
-  instagram,
-  shieldTick,
-  support,
-  truckFast,
-  twitter,
-} from "../assets/icons";
+import { facebook, instagram, twitter } from "../assets/icons";
 import {
   bigShoe1,
   bigShoe2,
@@ -14,16 +7,32 @@ import {
   skillLaravel,
   skillReactJS,
   skillTailwind,
-  TheWhyBuilder,
-  UrbanEnigma,
-  StephanieWolfPhotography,
-  GetLinkked,
-  IndonesiaMontessori,
-  AliSiam,
-  shoe4,
-  shoe5,
-  shoe6,
-  shoe7,
+  skillNodeJS,
+  skillBootstrap,
+  skillEcommerce,
+  skillApi,
+  skillMaintenance,
+  skillWebApplication,
+  skillSEOOptimization,
+  skillPerformanceOptimization,
+  TestimonialTheWhyBuilder,
+  TestimonialUrbanEnigma,
+  TestimonialStephanieWolfPhotography,
+  TestimonialGetLinkked,
+  TestimonialIndonesiaMontessori,
+  TestimonialAliSiam,
+  PortfolioAliSiam,
+  PortfolioDonateNow,
+  PortfolioEzzree,
+  PortfolioGetLinkked,
+  PortfolioGirlsGoneRiding,
+  PortfolioGloballyDelicious,
+  PortfolioIronCompanyEstimator,
+  PortfolioMassCircle,
+  PortfolioProactivSports,
+  PortfolioRoadhouseMarket,
+  PortfolioStephanieWolfPhotography,
+  PortfolioUrganEnigma,
   thumbnailShoe1,
   thumbnailShoe2,
   thumbnailShoe3,
@@ -76,51 +85,211 @@ export const statistics = [
   { value: "50+", label: "Clients" },
 ];
 
-export const products = [
+export const projects = [
   {
-    imgURL: shoe4,
-    name: "Nike Air Jordan-01",
-    price: "$200.20",
+    imgUrl: PortfolioRoadhouseMarket,
+    name: "Roadhouse Market & Butcher",
+    desc: "The art of seamlessly blended creativity of responsive web design with WordPress and Elementor.",
+    skills: [
+      "CSS / HTML",
+      "Elementor",
+      "JavaScript",
+      "Slider Revolution",
+      "WordPress",
+    ],
+    url: "https://roadhousemarkethavasu.com/",
   },
   {
-    imgURL: shoe5,
-    name: "Nike Air Jordan-10",
-    price: "$210.20",
+    imgUrl: PortfolioGetLinkked,
+    name: "Get Linkked",
+    desc: "Transform designs into fully functional websites with our custom WordPress theme Visual Composer development service.",
+    skills: ["CSS / HTML", "Multisite Network", "Visual Composer", "WordPress"],
+    url: "http://www.getlinkked.com/",
   },
   {
-    imgURL: shoe6,
-    name: "Nike Air Jordan-100",
-    price: "$220.20",
+    imgUrl: PortfolioGloballyDelicious,
+    name: "Globally Delicious",
+    desc: "Meticulously crafted Custom WordPress theme development, designed from a detailed PSD layout, to deliver a visually stunning website.",
+    skills: ["CSS / HTML", "JavaScript", "WordPress"],
+    url: "https://www.globallydelicious.com/",
   },
   {
-    imgURL: shoe7,
-    name: "Nike Air Jordan-001",
-    price: "$230.20",
+    imgUrl: PortfolioMassCircle,
+    name: "Mass Circle",
+    desc: "WordPress community website development with BuddyPress, Youzify, ADS pro, live streaming, and fundraising, for enhanced user engagement.",
+    skills: [
+      "Ajax",
+      "BuddyPress",
+      "CSS / HTML",
+      "JavaScript",
+      "Web Design",
+      "WordPress",
+      "Youzify",
+    ],
+    url: "https://masscircle.com/",
+  },
+
+  {
+    imgUrl: PortfolioProactivSports,
+    name: "Proactiv Sports",
+    desc: "Explore our WordPress expertise crafting a multi-site network for Hong Kong & Singapore markets, ensuring scalability & tailored experience.",
+    skills: ["CSS / HTML", "Multisite Network", "Visual Composer", "WordPress"],
+    url: "https://proactivsports.com/",
+  },
+  {
+    imgUrl: PortfolioDonateNow,
+    name: "Donate Now",
+    desc: "Custom web solution for donation orgs, powered by Laravel v8, Highcharts, & user-friendly UI/UX, meeting admins' & users' needs.",
+    skills: [
+      "Ajax",
+      "CSS / HTML",
+      "Highcharts",
+      "JavaScript",
+      "jQuery",
+      "Laravel",
+    ],
+    url: "",
+  },
+  {
+    imgUrl: PortfolioEzzree,
+    name: "Ezzree",
+    desc: "A complex and feature-rich website utilizing the Bridge theme and Elementor theme builder.",
+    skills: [
+      "Ajax",
+      "CSS / HTML",
+      "Elementor",
+      "JavaScript",
+      "jQuery",
+      "Slider Revolution",
+      "Stripe API",
+      "WordPress",
+      "Zoom API",
+    ],
+    url: "https://ezzree.com/",
+  },
+
+  {
+    imgUrl: PortfolioGirlsGoneRiding,
+    name: "Girls Gone Riding",
+    desc: "Enhance your Weebly site with expert theme customization. We integrate design elements for an engaging user experience and stunning results.",
+    skills: [
+      "CSS/HTML",
+      "Theme Customization",
+      "UI/UX",
+      "web design",
+      "web development",
+      "Weebly",
+    ],
+    url: "http://www.girlzgoneriding.com/",
+  },
+  {
+    imgUrl: PortfolioUrganEnigma,
+    name: "Urgan Enigma",
+    desc: "Uncover a unique E-Commerce site by expert Laravel developers. Our CSS & jQuery skills create captivating visuals, boosting engagement.",
+    skills: ["Ajax", "CSS / HTML", "JavaScript", "jQuery", "Laravel"],
+    url: "https://dev.urban-enigma.com/",
+  },
+  {
+    imgUrl: PortfolioIronCompanyEstimator,
+    name: "Iron Company Estimator",
+    desc: "Crafted a Laravel-based estimator for iron companies, optimizing with MySQL procedures, jQuery, and Ajax for a seamless user experience.",
+    skills: ["Ajax", "CSS / HTML", "JavaScript", "jQuery", "Laravel"],
+    url: "",
+  },
+  {
+    imgUrl: PortfolioAliSiam,
+    name: "Ali Siam",
+    desc: "Explore our agency's meticulous transformation of client design into stunning custom websites, powered by WordPress & Visual Composer.",
+    skills: ["CSS / HTML", "Visual Composer", "Web Design", "WordPress"],
+    url: "https://alisiam.com/",
+  },
+  {
+    imgUrl: PortfolioStephanieWolfPhotography,
+    name: "Stephanie Wolf Photography",
+    desc: "Enhance your online presence with a custom WordPress theme by experts. Modern design for captivating visuals and seamless functionality.",
+    skills: ["CSS / HTML", "jQuery", "Web Design", "WordPress"],
+    url: "",
   },
 ];
 
 export const services = [
   {
-    imgURL: truckFast,
-    label: "Free shipping",
-    subtext: "Enjoy seamless shopping with our complimentary shipping service.",
-  },
-  {
-    imgURL: shieldTick,
-    label: "Secure Payment",
+    imgURL: skillWordPress,
+    label: "WordPress Development",
     subtext:
-      "Experience worry-free transactions with our secure payment options.",
+      "Create and customize WordPress websites, including themes and plugins, to suit your specific needs.",
   },
   {
-    imgURL: support,
-    label: "Love to help you",
-    subtext: "Our dedicated team is here to assist you every step of the way.",
+    imgURL: skillLaravel,
+    label: "Laravel Development",
+    subtext:
+      "Develop robust and scalable web applications using the Laravel framework for clean and efficient code.",
+  },
+  {
+    imgURL: skillNodeJS,
+    label: "NodeJS Development",
+    subtext:
+      "Build fast and scalable server-side applications with NodeJS, ideal for real-time applications.",
+  },
+  {
+    imgURL: skillReactJS,
+    label: "ReactJS Development",
+    subtext:
+      "Develop interactive and dynamic front-end applications with ReactJS, ensuring a seamless user experience.",
+  },
+  {
+    imgURL: skillBootstrap,
+    label: "Bootstrap Design",
+    subtext:
+      "Create modern and flexible designs using Tailwind CSS, allowing for quick and efficient styling.",
+  },
+  {
+    imgURL: skillTailwind,
+    label: "Tailwind CSS Design",
+    subtext:
+      "Build fast and scalable server-side applications with NodeJS, ideal for real-time applications.",
+  },
+  {
+    imgURL: skillEcommerce,
+    label: "E-commerce Solutions",
+    subtext:
+      "Develop and integrate e-commerce functionalities into your website for online selling.",
+  },
+  {
+    imgURL: skillApi,
+    label: "API Integration",
+    subtext:
+      "Integrate third-party APIs into your applications for extended functionality and better performance.",
+  },
+  {
+    imgURL: skillMaintenance,
+    label: "Website Maintenance",
+    subtext:
+      "Provide ongoing support and maintenance to keep your website up-to-date and running smoothly.",
+  },
+  {
+    imgURL: skillWebApplication,
+    label: "Custom Web Applications",
+    subtext:
+      "Design and develop custom web applications tailored to your business needs.",
+  },
+  {
+    imgURL: skillSEOOptimization,
+    label: "SEO Optimization",
+    subtext:
+      "Optimize your website for search engines to improve visibility and attract more visitors.",
+  },
+  {
+    imgURL: skillPerformanceOptimization,
+    label: "Performance Optimization",
+    subtext:
+      "Enhance the speed and performance of your website for a better user experience.",
   },
 ];
 
 export const testimonials = [
   {
-    imgURL: TheWhyBuilder,
+    imgURL: TestimonialTheWhyBuilder,
     customerName: "Mike Lord",
     companyName: "The Why Builder",
     rating: 5.0,
@@ -129,7 +298,7 @@ export const testimonials = [
   },
 
   {
-    imgURL: UrbanEnigma,
+    imgURL: TestimonialUrbanEnigma,
     customerName: "Raymond Stencils",
     companyName: "Urban Enigma",
     rating: 5.0,
@@ -138,7 +307,7 @@ export const testimonials = [
   },
 
   {
-    imgURL: StephanieWolfPhotography,
+    imgURL: TestimonialStephanieWolfPhotography,
     customerName: "Stephanie Wolf",
     companyName: "Stephanie Wolf Photography",
     rating: 5.0,
@@ -147,7 +316,7 @@ export const testimonials = [
   },
 
   {
-    imgURL: GetLinkked,
+    imgURL: TestimonialGetLinkked,
     customerName: "Shazaf Moonis",
     companyName: "Get Linkked",
     rating: 5.0,
@@ -156,7 +325,7 @@ export const testimonials = [
   },
 
   {
-    imgURL: IndonesiaMontessori,
+    imgURL: TestimonialIndonesiaMontessori,
     customerName: "Andy Kusumo",
     companyName: "Indonesia Montessori",
     rating: 5.0,
@@ -165,7 +334,7 @@ export const testimonials = [
   },
 
   {
-    imgURL: AliSiam,
+    imgURL: TestimonialAliSiam,
     customerName: "Ali Siam",
     companyName: "Ali Siam",
     rating: 5.0,
@@ -176,37 +345,60 @@ export const testimonials = [
 
 export const footerLinks = [
   {
-    title: "Products",
+    title: "Services",
     links: [
-      { name: "Air Force 1", link: "/" },
-      { name: "Air Max 1", link: "/" },
-      { name: "Air Jordan 1", link: "/" },
-      { name: "Air Force 2", link: "/" },
-      { name: "Nike Waffle Racer", link: "/" },
-      { name: "Nike Cortez", link: "/" },
+      { name: "WordPress", link: "https://wordpres.org" },
+      { name: "Laravel", link: "https://laravel.com" },
+      { name: "NodeJS", link: "https://nodejs.org" },
+      { name: "ReactJS", link: "https://react.dev/" },
+      { name: "Tailwind", link: "https://tailwindcss.com/" },
+      { name: "Bootstrap", link: "https://getbootstrap.com/" },
     ],
   },
   {
-    title: "Help",
+    title: "Profiles",
     links: [
-      { name: "About us", link: "/" },
-      { name: "FAQs", link: "/" },
-      { name: "How it works", link: "/" },
-      { name: "Privacy policy", link: "/" },
-      { name: "Payment policy", link: "/" },
+      { name: "LinkedIn", link: "https://www.linkedin.com/in/haroonsajjad/" },
+      {
+        name: "UpWork",
+        link: "https://www.upwork.com/freelancers/haroonsajjad",
+      },
+      { name: "Fiverr", link: "https://www.fiverr.com/haroonsajjad" },
+      { name: "GitHub", link: "https://github.com/haroon-sajjad/" },
+      {
+        name: "Website",
+        link: "./",
+      },
     ],
   },
   {
     title: "Get in touch",
     links: [
-      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-      { name: "+92554862354", link: "tel:+92554862354" },
+      {
+        name: "haroon.sajjad@outlook.com",
+        link: "mailto:haroon.sajjad@outlook.com",
+      },
+      { name: "+92 (313) 966-0005", link: "tel:+923139660005" },
+      { name: "Schedule Meeting", link: "https://cal.com/haroon.sajjad/30min/" },
+      
     ],
   },
 ];
 
 export const socialMedia = [
-  { src: facebook, alt: "facebook logo" },
-  { src: twitter, alt: "twitter logo" },
-  { src: instagram, alt: "instagram logo" },
+  {
+    src: facebook,
+    alt: "facebook logo",
+    link: "https://www.facebook.com/haroon373",
+  },
+  {
+    src: twitter,
+    alt: "twitter logo",
+    link: "https://www.twitter.com/haroon373",
+  },
+  {
+    src: instagram,
+    alt: "instagram logo",
+    link: "https://www.instagram.com/haroon373",
+  },
 ];

@@ -3,9 +3,9 @@ import {
   ClientTestimonials,
   Footer,
   Hero,
-  PopularProducts,
+  LatestProjects,
   Services,
-  SpecialOffer,
+  Clients,
   CallToAction,
   SuperQuality,
 } from "./sections";
@@ -17,17 +17,18 @@ const App = () => {
       <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />
       </section>
-      <section className="padding">
-        <PopularProducts />
-      </section>
+
       <section className="padding">
         <SuperQuality />
       </section>
-      <section className="padding-x py-10">
+      <section className="padding-x pb-10">
         <Services />
       </section>
+      <section className="bg-slate-500 padding">
+        <Clients />
+      </section>
       <section className="padding">
-        <SpecialOffer />
+        <LatestProjects />
       </section>
       <section className="bg-pale-blue padding">
         <ClientTestimonials />
