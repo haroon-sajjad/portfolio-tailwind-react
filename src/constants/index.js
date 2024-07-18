@@ -1,8 +1,5 @@
 import { facebook, instagram, twitter } from "../assets/icons";
 import {
-  bigShoe1,
-  bigShoe2,
-  bigShoe3,
   skillWordPress,
   skillLaravel,
   skillReactJS,
@@ -33,32 +30,7 @@ import {
   PortfolioRoadhouseMarket,
   PortfolioStephanieWolfPhotography,
   PortfolioUrganEnigma,
-  thumbnailShoe1,
-  thumbnailShoe2,
-  thumbnailShoe3,
 } from "../assets/images";
-
-export const navLinks = [
-  { href: "#home", label: "Home" },
-  { href: "#about-us", label: "About Us" },
-  { href: "#products", label: "Products" },
-  { href: "#contact-us", label: "Contact Us" },
-];
-
-export const shoes = [
-  {
-    thumbnail: thumbnailShoe1,
-    bigShoe: bigShoe1,
-  },
-  {
-    thumbnail: thumbnailShoe2,
-    bigShoe: bigShoe2,
-  },
-  {
-    thumbnail: thumbnailShoe3,
-    bigShoe: bigShoe3,
-  },
-];
 
 export const skills = [
   {
