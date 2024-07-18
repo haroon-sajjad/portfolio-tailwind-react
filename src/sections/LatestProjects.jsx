@@ -15,7 +15,7 @@ const LatestProjects = () => {
         </p>
       </div>
 
-      <div className="mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-6 gap-14">
+      <div className="mt-16 grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 sm:gap-6 gap-14">
         {projects.map((project) => (
           <LatestProjectsCard key={project.name} {...project} />
         ))}
