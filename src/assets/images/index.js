@@ -35,6 +35,7 @@ import PortfolioGloballyDelicious from "./portfolio/Portfolio - Globally Delicio
 import PortfolioIronCompanyEstimator from "./portfolio/Portfolio - Iron CompanyEstimator.png";
 import PortfolioMassCircle from "./portfolio/Portfolio - Mass Circle.png";
 import PortfolioProactivSports from "./portfolio/Portfolio - Proactiv Sports.png";
+import PortfolioZKEW from "./portfolio/Portfolio - Zunair Khalid Engineering Works.jpg";
 import PortfolioRoadhouseMarket from "./portfolio/Portfolio - Roadhouse Market & Butcher.png";
 import PortfolioStephanieWolfPhotography from "./portfolio/Portfolio - Stephanie Wolf Photography.jpeg";
 import PortfolioUrganEnigma from "./portfolio/Portfolio - Urgan Enigma.png";
@@ -77,6 +78,7 @@ export {
   PortfolioIronCompanyEstimator,
   PortfolioMassCircle,
   PortfolioProactivSports,
+  PortfolioZKEW,
   PortfolioRoadhouseMarket,
   PortfolioStephanieWolfPhotography,
   PortfolioUrganEnigma,

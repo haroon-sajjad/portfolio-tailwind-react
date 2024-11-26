@@ -27,6 +27,7 @@ import {
   PortfolioIronCompanyEstimator,
   PortfolioMassCircle,
   PortfolioProactivSports,
+  PortfolioZKEW,
   PortfolioRoadhouseMarket,
   PortfolioStephanieWolfPhotography,
   PortfolioUrganEnigma,
@@ -58,6 +59,18 @@ export const statistics = [
 ];
 
 export const projects = [
+  {
+    imgUrl: PortfolioZKEW,
+    name: "Zunair Khalid Engineering Works",
+    desc: "Crafted responsive web design with the flexibility of WordPress and the power of Breakdance Page Builder.",
+    skills: [
+      "CSS / HTML",
+      "Breakdance",
+      "JavaScript",
+      "WordPress",
+    ],
+    url: "https://zunairkhalid.com/",
+  },
   {
     imgUrl: PortfolioRoadhouseMarket,
     name: "Roadhouse Market & Butcher",
