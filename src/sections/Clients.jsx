@@ -6,6 +6,8 @@ import {
   clientProactivSports,
   clientEzzree,
   clientIMS,
+  clientRoadHouse,
+  clientZunairKhalid,
 } from "../assets/images";
 
 const Clients = () => {
@@ -21,6 +23,16 @@ const Clients = () => {
         surpassed with my approach.
       </p>
       <div className="flex flex-wrap justify-center items-center gap-10 lg:mx-24 mx-0 mt-24">
+        <img
+          src={clientZunairKhalid}
+          alt="Zunair Khalid Engineering Works"
+          className="w-[300px] object-contain"
+        />
+        <img
+          src={clientRoadHouse}
+          alt="Roadhouse Market & Butcher"
+          className="w-[300px] object-contain"
+        />
         <img
           src={clientTWB}
           alt="The Why Builder"

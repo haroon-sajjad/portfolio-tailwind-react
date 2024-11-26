@@ -18,6 +18,8 @@ import clientIMC from "./clients/imc.png";
 import clientProactivSports from "./clients/proactiv-sports.png";
 import clientEzzree from "./clients/ezzree.png";
 import clientIMS from "./clients/ims.png";
+import clientRoadHouse from "./clients/roadhouse.png";
+import clientZunairKhalid from "./clients/zunair-khalid.png";
 
 import TestimonialTheWhyBuilder from "./The-Why-Builder.png";
 import TestimonialUrbanEnigma from "./Urban-Enigma.png";
@@ -27,18 +29,18 @@ import TestimonialIndonesiaMontessori from "./Indonesia-Montessori.jpeg";
 import TestimonialAliSiam from "./Ali-Siam.jpeg";
 
 import PortfolioAliSiam from "./portfolio/Portfolio - Ali Siam.jpeg";
-import PortfolioDonateNow from "./portfolio/Portfolio - DonateNow.png";
-import PortfolioEzzree from "./portfolio/Portfolio - Ezzree.png";
-import PortfolioGetLinkked from "./portfolio/Portfolio - GetLinkked.png";
-import PortfolioGirlsGoneRiding from "./portfolio/Portfolio - Girls Gone Riding.png";
-import PortfolioGloballyDelicious from "./portfolio/Portfolio - Globally Delicious.png";
-import PortfolioIronCompanyEstimator from "./portfolio/Portfolio - Iron CompanyEstimator.png";
-import PortfolioMassCircle from "./portfolio/Portfolio - Mass Circle.png";
-import PortfolioProactivSports from "./portfolio/Portfolio - Proactiv Sports.png";
+import PortfolioDonateNow from "./portfolio/Portfolio - DonateNow.jpg";
+import PortfolioEzzree from "./portfolio/Portfolio - Ezzree.jpg";
+import PortfolioGetLinkked from "./portfolio/Portfolio - GetLinkked.jpg";
+import PortfolioGirlsGoneRiding from "./portfolio/Portfolio - Girls Gone Riding.jpg";
+import PortfolioGloballyDelicious from "./portfolio/Portfolio - Globally Delicious.jpg";
+import PortfolioIronCompanyEstimator from "./portfolio/Portfolio - Iron CompanyEstimator.jpg";
+import PortfolioMassCircle from "./portfolio/Portfolio - Mass Circle.jpg";
+import PortfolioProactivSports from "./portfolio/Portfolio - Proactiv Sports.jpg";
 import PortfolioZKEW from "./portfolio/Portfolio - Zunair Khalid Engineering Works.jpg";
-import PortfolioRoadhouseMarket from "./portfolio/Portfolio - Roadhouse Market & Butcher.png";
+import PortfolioRoadhouseMarket from "./portfolio/Portfolio - Roadhouse Market & Butcher.jpg";
 import PortfolioStephanieWolfPhotography from "./portfolio/Portfolio - Stephanie Wolf Photography.jpeg";
-import PortfolioUrganEnigma from "./portfolio/Portfolio - Urgan Enigma.png";
+import PortfolioUrganEnigma from "./portfolio/Portfolio - Urgan Enigma.jpg";
 
 import services from "./services.jpg";
 import headerLogo from "./header-logo.png";
@@ -63,6 +65,8 @@ export {
   clientProactivSports,
   clientEzzree,
   clientIMS,
+  clientRoadHouse,
+  clientZunairKhalid,
   TestimonialTheWhyBuilder,
   TestimonialUrbanEnigma,
   TestimonialStephanieWolfPhotography,
