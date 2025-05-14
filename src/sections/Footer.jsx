@@ -68,7 +68,7 @@ const Footer = () => {
             height={16}
             className="rounded-full m-0"
           />
-          <p>Copyright 2024. All rights reserved.</p>
+          <p>Copyright 2025. All rights reserved.</p>
         </div>
       </div>
     </footer>
