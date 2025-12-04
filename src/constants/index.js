@@ -28,6 +28,7 @@ import {
   PortfolioMassCircle,
   PortfolioProactivSports,
   PortfolioZKEW,
+  PortfolioZingSquad,
   PortfolioRoadhouseMarket,
   PortfolioStephanieWolfPhotography,
   PortfolioUrganEnigma,
@@ -59,6 +60,19 @@ export const statistics = [
 ];
 
 export const projects = [
+  {
+    imgUrl: PortfolioZingSquad,
+    name: "Zing Squad",
+    desc: "Crafted responsive web design with the flexibility of WordPress and the power of Avada (Fusion Page Builder).",
+    skills: [
+      "WordPress",
+      "Avada",
+      "Fusion Builder",
+      "CSS / HTML",
+      "JavaScript",
+    ],
+    url: "https://zunairkhalid.com/",
+  },
   {
     imgUrl: PortfolioZKEW,
     name: "Zunair Khalid Engineering Works",

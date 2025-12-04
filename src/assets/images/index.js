@@ -38,6 +38,7 @@ import PortfolioIronCompanyEstimator from "./portfolio/Portfolio - Iron CompanyE
 import PortfolioMassCircle from "./portfolio/Portfolio - Mass Circle.jpg";
 import PortfolioProactivSports from "./portfolio/Portfolio - Proactiv Sports.jpg";
 import PortfolioZKEW from "./portfolio/Portfolio - Zunair Khalid Engineering Works.jpg";
+import PortfolioZingSquad from "./portfolio/Portfolio - Zing Squad.jpg";
 import PortfolioRoadhouseMarket from "./portfolio/Portfolio - Roadhouse Market & Butcher.jpg";
 import PortfolioStephanieWolfPhotography from "./portfolio/Portfolio - Stephanie Wolf Photography.jpeg";
 import PortfolioUrganEnigma from "./portfolio/Portfolio - Urgan Enigma.jpg";
@@ -83,6 +84,7 @@ export {
   PortfolioMassCircle,
   PortfolioProactivSports,
   PortfolioZKEW,
+  PortfolioZingSquad,
   PortfolioRoadhouseMarket,
   PortfolioStephanieWolfPhotography,
   PortfolioUrganEnigma,
