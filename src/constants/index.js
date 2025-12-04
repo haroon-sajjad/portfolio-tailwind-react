@@ -71,7 +71,7 @@ export const projects = [
       "CSS / HTML",
       "JavaScript",
     ],
-    url: "https://zunairkhalid.com/",
+    url: "https://www.zingsquad.com/",
   },
   {
     imgUrl: PortfolioZKEW,
